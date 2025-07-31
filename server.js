@@ -108,8 +108,7 @@ async function syncDatabaseAndCreateAdmin() {
       await Admin.create({
         username: 'Admin',
         password: 'Password4dmin123',
-        role: 'admin',
-        email: 'your-email@gmail.com' 
+        role: 'admin', 
       });
       // eslint-disable-next-line no-console
       console.log('Admin default dibuat');
