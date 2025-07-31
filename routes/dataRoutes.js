@@ -5,6 +5,6 @@ import { getPriceChart } from '../controllers/graphController.js';
 const router = express.Router();
 
 router.post('/data', fetchDataHandler);
-router.post('/graph', getPriceChart);
+// router.post('/graph', getPriceChart);
 
 export default router;
